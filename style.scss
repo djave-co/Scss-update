@@ -1,0 +1,28 @@
+.text-center{ text-align:center; }
+.text-left{ text-align:left; }
+.text-right{ text-align:right; }
+
+.modal-window{
+	padding:50px;
+	border:5px solid #eaeaea;
+}
+
+.square-row{
+	overflow:hidden;
+}
+.square{
+	width:31.333%;
+	margin:0.5% 1%;
+	float:left;
+	img{
+		max-width:100%;
+		width:100%;
+	}
+}
+[data-ref]{
+	cursor:pointer;
+}
+[data-ref]:hover{
+	background:#1abc9c;
+	color:#fff;
+}
